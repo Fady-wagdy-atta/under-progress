@@ -1,0 +1,155 @@
+@import url(info-bar.css);
+
+* {
+  font-family: "Lumanosimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5feff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.profile-img {
+  max-width: 200px;
+  border-radius: 60%;
+  margin-bottom: 20px;
+}
+.contact {
+  color: rgb(64, 64, 64);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3rem;
+  grid-gap: 10px;
+  margin-left: 3rem;
+}
+#whatsapp {
+  color: #555;
+  font-size: 5rem;
+  transition: 0.3s ease;
+}
+
+#whatsapp:hover {
+  color: #00be43;
+  font-size: 6rem;
+}
+#github {
+  color: #555555;
+  font-size: 4rem;
+  transition: 0.3s ease;
+}
+
+#github:hover {
+  color: #000000;
+  font-size: 5rem;
+}
+#twitter {
+  color: #555555;
+  font-size: 4rem;
+  transition: 0.3s ease;
+}
+
+#twitter:hover {
+  color: #2d93c9;
+  font-size: 5rem;
+}
+#instagram{
+  color: #555555;
+  font-size: 4rem;
+  transition: 0.3s ease;
+}
+
+#instagram:hover {
+  color: #edf034e9;
+  font-size: 5rem;
+}
+#linkedin{
+  color: #555555;
+  font-size: 4rem;
+  transition: 0.3s ease;
+}
+
+#linkedin:hover {
+  color: #54d1eae9;
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .contact {
+    color: rgb(64, 64, 64);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 3rem;
+    grid-gap: 10px;
+    margin-left: 0rem;
+  }
+
+  #facebook {
+    color: #555555;
+    font-size: 3rem;
+    transition: 0.3s ease;
+  }
+
+  #facebook:hover {
+    color: #0084ff;
+    font-size: 4rem;
+  }
+
+  #github {
+    color: #555555;
+    font-size: 3rem;
+    transition: 0.3s ease;
+  }
+
+  #github:hover {
+    color: #000000;
+    font-size: 4rem;
+  }
+
+  #twitter {
+    color: #555555;
+    font-size: 3rem;
+    transition: 0.3s ease;
+  }
+
+  #twitter:hover {
+    color: #2d93c9;
+    font-size: 4rem;
+  }
+
+  #instagram {
+    color: #555555;
+    font-size: 3rem;
+    transition: 0.3s ease;
+  }
+
+  #instagram:hover {
+    color: #edf034e9;
+    font-size: 4rem;
+  }
+
+  #linkedin {
+    color: #555555;
+    font-size: 3rem;
+    transition: 0.3s ease;
+  }
+
+  #linkedin:hover {
+    color: #54d1eae9;
+    font-size: 4rem;
+  }
+}
